@@ -60,10 +60,21 @@ flowchart LR
 
 ## What's Here
 
-| Folder | Purpose |
-|--------|---------|
+| Folder/File | Purpose |
+|-------------|---------|
 | `ideas/` | Rough thoughts, brainstorms, early explorations |
 | `docs/` | More polished or structured documents |
+| `CLAUDE.md` | Instructions for Claude Code |
+| `.github/copilot-instructions.md` | Instructions for GitHub Copilot |
+
+## AI Agent Configuration
+
+We use multiple AI agents, and they share context about this project:
+
+- **GitHub Copilot** (in Slack): Reads `.github/copilot-instructions.md`
+- **Claude Code** (CLI): Reads `CLAUDE.md`
+
+Both files contain the same project context so agents behave consistently regardless of where you're working.
 
 ## Getting Started
 
