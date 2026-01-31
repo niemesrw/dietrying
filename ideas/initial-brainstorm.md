@@ -14,8 +14,6 @@
 
 *(Add notes from the Signal discussion here)*
 
--
-
 ## Action Items
 
 - [x] Set up Slack workspace
