@@ -6,6 +6,12 @@
 2. Ask `@github` to save things to this repo
 3. Done
 
+## Slack Setup
+
+The `#dietrying` channel is for **human discussion**. We've turned off GitHub notifications so the channel stays clean - no bot spam about commits and PRs.
+
+`@github` is still in the channel and responds when you ask it to do something. It just doesn't broadcast every repo update.
+
 ## Using the GitHub Agent in Slack
 
 You can ask `@github` (Copilot) to do things like:
