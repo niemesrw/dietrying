@@ -19,13 +19,35 @@ A collaborative project exploring how AI is changing things.
 
 ## How We Work
 
-We use AI agents (GitHub Copilot in Slack) to handle the technical stuff:
+We use AI agents (GitHub Copilot in Slack) to handle the technical stuff. No git knowledge required.
 
-1. **Discuss** ideas in `#dietrying` on Slack
-2. **Capture** by asking `@github` to create or update files in this repo
-3. **Everyone gets notified** automatically in Slack when the repo updates
+```mermaid
+flowchart LR
+    subgraph Slack["#dietrying on Slack"]
+        Team["Team Discussion"]
+        Notify["Notifications"]
+    end
 
-No git knowledge required. The agents do the heavy lifting.
+    subgraph Agent["@github / Copilot"]
+        AI["AI Agent"]
+    end
+
+    subgraph GitHub["GitHub Repo"]
+        Ideas["ideas/"]
+        Docs["docs/"]
+    end
+
+    Team -->|"@github capture this"| AI
+    AI -->|creates/updates files| Ideas
+    AI -->|creates/updates files| Docs
+    Ideas -->|repo activity| Notify
+    Docs -->|repo activity| Notify
+```
+
+**The flow:**
+1. **Discuss** ideas in Slack
+2. **Capture** by asking `@github` to save to the repo
+3. **Everyone gets notified** automatically when the repo updates
 
 ## What's Here
 
