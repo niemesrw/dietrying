@@ -18,6 +18,6 @@
 
 ## Action Items
 
-- [ ] Set up Slack workspace
+- [x] Set up Slack workspace
 - [ ] Capture full names for Ross and Neil
 - [ ] Document initial ideas from Signal chat
