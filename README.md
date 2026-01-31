@@ -13,17 +13,31 @@ A collaborative project exploring how AI is changing things.
 
 ## Communication
 
-- **Primary**: Slack (TBD - workspace setup pending)
-- **Initial**: Signal chat (introductions & early ideation)
+- **Slack**: `#dietrying` channel (primary)
+- **GitHub**: This repo (for capturing ideas and documents)
+- **History**: Started via Signal chat - introductions and early ideation
 
-## Project Scope
+## How We Work
 
-This project is focused on discussions, documents, and ideas about AI's impact. May include code, but primarily centered on exploration and collaboration.
+We use AI agents (GitHub Copilot in Slack) to handle the technical stuff:
+
+1. **Discuss** ideas in `#dietrying` on Slack
+2. **Capture** by asking `@github` to create or update files in this repo
+3. **Everyone gets notified** automatically in Slack when the repo updates
+
+No git knowledge required. The agents do the heavy lifting.
+
+## What's Here
+
+| Folder | Purpose |
+|--------|---------|
+| `ideas/` | Rough thoughts, brainstorms, early explorations |
+| `docs/` | More polished or structured documents |
 
 ## Getting Started
 
-See [ideas/](ideas/) for ongoing discussions and brainstorming.
+1. Join `#dietrying` on Slack
+2. Start discussing
+3. When something's worth keeping, ask `@github` to capture it
 
-## History
-
-- **Initial meeting**: Signal chat - introductions and ideation about what AI will change
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.

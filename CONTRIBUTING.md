@@ -1,45 +1,45 @@
 # Contributing
 
-## Communication
+## The Simple Version
 
-- **Slack**: `#dietrying` channel (subscribe to GitHub notifications there)
-- **Async-friendly**: Not everyone is online at the same time - write things down
+1. Discuss in `#dietrying` on Slack
+2. Ask `@github` to save things to this repo
+3. Done
 
-## Workflow
+## Using the GitHub Agent in Slack
 
-1. **Discuss** in Slack
-2. **Capture** ideas worth keeping in this repo
-3. **Push** so everyone can see and build on it
+You can ask `@github` (Copilot) to do things like:
 
-## Adding Ideas
+- "Create a new file in ideas/ about [topic]"
+- "Summarize our discussion and add it to the repo"
+- "What files do we have in the ideas folder?"
+- "Update the README with [new info]"
 
-When a discussion produces something worth preserving:
+The agent handles git, commits, and all the technical stuff.
 
-1. Create a new file in `ideas/` with a descriptive name (e.g., `ideas/ai-education-impact.md`)
-2. Include:
-   - A brief summary
-   - Key points from the discussion
-   - Open questions or next steps
-3. Commit and push - the team will get notified in Slack
+## When to Capture Something
 
-## Docs vs Ideas
+Good candidates for the repo:
+- Ideas that crystallized from discussion
+- Decisions the group made
+- Research or links worth preserving
+- Questions we want to explore further
+
+## Folder Structure
 
 | Folder | Use for |
 |--------|---------|
 | `ideas/` | Rough thoughts, brainstorms, early-stage exploration |
 | `docs/` | More polished or structured documents |
 
-## Git Basics
+## Optional: Direct Editing
 
-```bash
-# Get latest changes
-git pull
+If you prefer, you can also:
 
-# Add your changes
-git add ideas/your-new-idea.md
-git commit -m "Add idea: brief description"
-git push
-```
+- **Edit on GitHub.com**: Click any file → pencil icon → edit → commit (no git needed)
+- **Use git locally**: Clone, edit, push (for those comfortable with it)
+
+But the Slack + agent workflow is the easiest path.
 
 ## Questions?
 
