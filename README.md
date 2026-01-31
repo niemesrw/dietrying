@@ -13,7 +13,7 @@ A collaborative project exploring how AI is changing things.
 
 ## Communication
 
-- **Primary**: Slack (TBD - workspace setup pending)
+- **Primary**: Slack `#dietrying` channel
 - **Initial**: Signal chat (introductions & early ideation)
 
 ## Project Scope
