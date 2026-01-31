@@ -23,25 +23,34 @@ We use AI agents (GitHub Copilot in Slack) to handle the technical stuff. No git
 
 ```mermaid
 flowchart LR
-    subgraph Slack["#dietrying on Slack"]
-        Team["Team Discussion"]
-        Notify["Notifications"]
+    subgraph Slack["💬 SLACK"]
+        Team[["🗣️ Team<br/>Discussion"]]
+        Notify[["🔔 Notifications"]]
     end
 
-    subgraph Agent["@github / Copilot"]
-        AI["AI Agent"]
+    subgraph Agent["🤖 AI AGENT"]
+        AI[["@github<br/>Copilot"]]
     end
 
-    subgraph GitHub["GitHub Repo"]
-        Ideas["ideas/"]
-        Docs["docs/"]
+    subgraph GitHub["📁 GITHUB REPO"]
+        Ideas[["ideas/"]]
+        Docs[["docs/"]]
     end
 
-    Team -->|"@github capture this"| AI
-    AI -->|creates/updates files| Ideas
-    AI -->|creates/updates files| Docs
-    Ideas -->|repo activity| Notify
-    Docs -->|repo activity| Notify
+    Team ==>|"capture this!"| AI
+    AI ==>|saves| Ideas
+    AI ==>|saves| Docs
+    Ideas -.->|update alert| Notify
+    Docs -.->|update alert| Notify
+
+    style Slack fill:#4A154B,color:#fff,stroke:#4A154B
+    style Agent fill:#2088FF,color:#fff,stroke:#2088FF
+    style GitHub fill:#238636,color:#fff,stroke:#238636
+    style Team fill:#611f69,color:#fff,stroke:#fff,stroke-width:2px
+    style Notify fill:#611f69,color:#fff,stroke:#fff,stroke-width:2px
+    style AI fill:#0969da,color:#fff,stroke:#fff,stroke-width:2px
+    style Ideas fill:#2ea043,color:#fff,stroke:#fff,stroke-width:2px
+    style Docs fill:#2ea043,color:#fff,stroke:#fff,stroke-width:2px
 ```
 
 **The flow:**
